@@ -1,6 +1,6 @@
 # Project 1: The Game (tic tac toe)
 
-My first project with General Assembly as part of Software Engineering Immersive course with the following deliverables:
+My first project with General Assembly as part of Software Engineering Immersive with the following deliverables:
 
 - Render a game in the browser
 - Switch turns between more than one player
