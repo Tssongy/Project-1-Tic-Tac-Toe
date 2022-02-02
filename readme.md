@@ -12,3 +12,19 @@ My first project with General Assembly as part of Software Engineering Immersive
 - Use semantic markup for HTML and CSS (adhere to best practices)
 
 And some extra features!
+
+# Format to have (SEE BELOW)
+
+# Tic Tac Toe
+
+Write a small message to describe what Tic Tac Toe is about
+
+## Approach to problem (planning)
+
+## Cool tech used
+...
+## Lessons you learnt
+...
+
+## Future features
+...

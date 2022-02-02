@@ -21,19 +21,3 @@
 // 1. Create an object for each player to store the player's name and the number of wins (anything else?)
 // 2. Determine which player goes first
 // 3. Each player will have a different mark on the board
-
-
-
-function createBoard (size) {
-    var row1 = document.createElement('section')
-    var row2 = document.createElement('section')
-    var row3 = document.createElement('section')
-    document.querySelector('main').append(row1,row2,row3)
-    
-
-    var row1_column1 = document.createElement('section')
-    var row2 = document.createElement('section')
-    var row3 = document.createElement('section')
-}
-
-createBoard(3)
