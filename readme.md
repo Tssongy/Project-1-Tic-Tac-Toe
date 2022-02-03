@@ -40,7 +40,7 @@ Pseudocode was used in planning for the logics within javascript.
     - Building on basics is easier and less time-consuming than coming up with a complicated logic at once.
     - Writing each step down/Talking out loud when iterating through multiple loops/functions
     - Console.log EVERYTHING when writing new functions (baby steps)
-    - Leave majority of CSS for later but it could be more motivating for the coder if some CSS features were already in place.
+    - Leave majority of CSS for later but a static white page can be discouraging at times. Add basic CSS featured if you can afford to!
 
 ## Future features
     - Thematic audio with a stop and play button
