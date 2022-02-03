@@ -7,16 +7,49 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
 <body>
+    
     <header>
         <h1 class='game-title'>Tic Tac Toe</h1>
+        <nav class="menu">
+            <button class='three-by-three'>3 x 3</button>
+            <button class='five-by-five'>5 x 5</button>
+            <button class='seven-by-seven'>7 x 7</button>
+        </nav>
     </header>
 
     <main>
-        
+        <aside class="player1">
+            <h1 class='player-name'>Player 1</h1>
+            <h1 class='score'>0</h1>
+        </aside>
+        <section class="board firstPlayer"></section>
+        <aside class="player2">
+            <h1 class='player-name'>Player 2</h1>
+            <h1 class='score'>0</h1>
+        </aside>
     </main>
+
+    <section class="game-end">
+        <h1 class="message"></h1>
+        <button class="play-again">Play Again</button>
+    </section>
+
+    <footer>
+        <h1>Games played: <span class='num-games-played'>0</span></h1>
+    </footer>
+
 
 
     <script src="main.js"></script>
 </body>
+
 </html>
