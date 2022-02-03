@@ -13,8 +13,6 @@ My first project with General Assembly as part of Software Engineering Immersive
 
 And some extra features!
 
-# Format to have (SEE BELOW)
-
 # Tic Tac Toe
 'Tic Tac Toe' is a strategy game between two players who, in turn, place their mark on the board. To win a game of tic tac toe, a player must place their marks, filling out a row, column, or a diagonal row.
 
