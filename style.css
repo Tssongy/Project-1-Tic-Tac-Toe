@@ -120,14 +120,16 @@ div {
     animation: fadeIn linear 3s;
     -webkit-animation: fadeIn linear 2s;
     border: 2px solid white;
+    display: inline-block;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 section div span {
     font-family: 'Work Sans', sans-serif;
-    font-size: 15vh;
+    font-size: 5vh;
     text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
 }
 
