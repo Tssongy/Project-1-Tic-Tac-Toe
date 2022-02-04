@@ -1,3 +1,5 @@
+Link to play game : https://tssongy.github.io/Project-1-Tic-Tac-Toe/
+
 # Project 1: The Game (tic tac toe)
 
 My first project with General Assembly as part of Software Engineering Immersive with the following deliverables:
