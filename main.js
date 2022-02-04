@@ -22,6 +22,7 @@ function updateScore(player) {
 
 function resetBoard(size) {
     var board = document.querySelector('.board')
+    board.classList.add('firstPlayer')
     while (board.firstChild){
         board.removeChild(board.lastChild)
     }
@@ -58,46 +59,6 @@ function checkForWin (size, player) {
     var hasWonDia1 = true;
     var hasWonDia2 = true;
     var draw = true;
-
-    // for (var i = 1; i <= size; i++) {
-    //     var hasWonRow = true;
-    //     var hasWonCol = true;
-        
-    //     var thisRow = document.querySelector(`.row${i}`)
-    //     var thisCols = document.querySelectorAll(`.col${i}`)
-       
-    //     // Check if a player has won by a column
-    //     for (let item of thisCols) {
-    //         if (item.style.backgroundColor != player.mark) {
-    //             hasWonCol = false;
-    //         }
-    //     }
-        
-    //     // Check if a player has won by a row or a draw
-    //     for (var j = 1; j <= size; j++) {
-    //         if (thisRow.children[j-1].style.backgroundColor != player.mark) {
-    //             hasWonRow = false
-    //         }
-
-    //         if (thisRow.children[j-1].style.backgroundColor === '') {
-    //             draw = false
-    //         }
-
-    //     }
-
-    //     // Check if a player has won diagonally
-    //     if (thisRow.children[i-1].style.backgroundColor != player.mark) {
-    //         hasWonDia1 = false;
-    //     }
-    //     if (thisRow.children[size-i].style.backgroundColor != player.mark) {
-    //         hasWonDia2 = false;
-    //     }
-    //     if (hasWonRow || hasWonCol) {
-    //         updateScore(player)
-    //         displayGameEnd(player, size, true)
-    //         return console.log(`${player.name} has won!`)
-    //     }
-    // }
 
     for (var i = 1; i <= size; i++) {
         var hasWonRow = true;
@@ -152,23 +113,6 @@ function checkForWin (size, player) {
 
 function assignClickListener(box, size) {
     var board = document.querySelector('.board')
-
-    // box.addEventListener('click', function (event) {
-    //     if(event.target.style.backgroundColor === ''){
-
-    //         if (board.classList.contains('firstPlayer')) {
-    //         event.target.style.backgroundColor = player1.mark
-    //             checkForWin(size, player1)
-    //         }
-
-    //         else {
-    //             event.target.style.backgroundColor = player2.mark
-    //             checkForWin(size, player2)
-    //         }
-
-    //         board.classList.toggle('firstPlayer')  
-    //     }                                 
-    // })
 
     box.addEventListener('click', function (event) {
         
