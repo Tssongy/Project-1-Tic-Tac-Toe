@@ -4,20 +4,11 @@
 
 body {
     font-family: 'Supermercado One', cursive;
-    margin: 0px;
+    margin: 5% 0px;
     background-image: url(./imgs/eberhard-grossgasteiger-HDxsIFHz4TI-unsplash.jpg); 
     background-size: cover;
-    background-position: center;
+    background-position-y: 70%;
 }
-
-
-
-/* body::after {
-    content: "";
-    background: url(./imgs/sky-space.jpg);
-    opacity: 0.5;
-    position: absolute; */
-/* } */
 
 header {
     text-align: center;
@@ -41,7 +32,7 @@ header {
     font-size: 3vh;
     font-family: 'Supermercado One', cursive;
     border-radius: 15px;
-    width:10%;
+    width:fit-content;
 }
   
 .menu button:hover, .play-again:hover {
@@ -82,10 +73,8 @@ main {
 
 .board section {
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
     flex-basis: 100%;
-    /* justify-self: stretch; */
 }
 
 aside {
@@ -97,8 +86,6 @@ aside {
 aside h1 {
     margin-top: 0;
     text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
-    /* animation: breathing 1.5s linear infinite;
-    animation-delay: 0ms; */
 }
 
 .active-player {
@@ -204,7 +191,7 @@ footer h1 {
       }
   }
   
-  @keyframes breathing {
+@keyframes breathing {
     0% {
       -webkit-transform: scale(0.8);
       -ms-transform: scale(0.8);
@@ -235,7 +222,54 @@ footer h1 {
       transform: scale(0.8);
     }
 
-  }
+}
 
+
+/* For tablet: */
+@media only screen and (max-width: 768px) {
+    aside {
+        font-size: 2.5vh;
+    }
+
+    .menu button, .play-again {
+        font-size: 2.5vh;
+    }
+
+    .game-title, footer h1{
+        font-size: 3vh;
+    }
+    
+}
+
+@media only screen and (max-width: 412px) {
+    aside {
+        font-size: 1.5vh;
+    }
+
+    .menu button, .play-again {
+        font-size: 1.5vh;
+    }
+
+    .game-title, footer h1{
+        font-size: 2vh;
+    }
+    
+    .board {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 40vh;
+        height: 40vh;
+    }
+
+    main {
+        display: grid;
+    }
+
+    section {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+}
 
 
