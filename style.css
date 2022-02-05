@@ -148,6 +148,14 @@ footer h1 {
     border-right: none;
 }
 
+small {
+    position:fixed;
+    top: 1;
+    left: 1;
+    bottom: 0;
+    right: 0;
+}
+
 
 @keyframes fadeIn {
     0% {opacity:0;}
