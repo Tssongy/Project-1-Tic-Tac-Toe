@@ -20,6 +20,16 @@ header {
     color: whitesmoke;
 }
 
+header aside p{
+    margin: 0% 0px;
+    font-size: 2vh;
+    color: whitesmoke;
+}
+
+.play-sound, .pause-sound {
+    border-radius: 15px;
+}
+
 .menu {
     display:flex;
     justify-content: center;

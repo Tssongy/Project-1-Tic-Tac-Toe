@@ -1,3 +1,10 @@
+let songs = [
+    {
+        name: 'background music',
+        path: 'audio/space-jazz-by-kevin-macleod-from-filmmusic-io.mp3'
+    }
+]
+
 player1 = {
     name: 'player1',
     mark: 'O',
@@ -13,6 +20,15 @@ player2 = {
 }
 
 var numGames = 0
+var music = document.querySelector('#music')
+
+function playMusic() {
+    music.play();
+}
+
+function pauseMusic() {
+    music.pause();
+}
 
 function updateScore(player) {
     var scoreBoard = document.querySelector(`.${player.name} .score`)
@@ -195,6 +211,8 @@ function init () {
         resetBoard(7)
     })  
 }
+
+
 
 init()
 
