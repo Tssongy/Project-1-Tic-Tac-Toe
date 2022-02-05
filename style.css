@@ -277,6 +277,14 @@ small {
         margin-left: 2%;
         margin-right: 2%;
     }
+
+    .game-end {
+        font-size: 1.5rem;
+    }
+
+    section div span {
+        font-size: 3.5vh;
+    }
     
 }
 
